@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Ubuntu", sans-serif;
+}
+
+
+#pass{
+   height: 100vh;
+   background-color: #3eecd5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pass .pass-2{
+    display: flex;
+    padding: 5px;
+}
+#pass .pass-2 input{
+    padding: 10px;
+    border: 0;
+    outline: 0;
+}
+#pass .pass-2 .btn{
+    display: flex;
+   
+}
+#pass .pass-2 button{
+    padding: 10px;
+    border: 0;
+    background: #68f056;
+}
+#pass .pass-2  .eye2{
+    display: none;
+}
